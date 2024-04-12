@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: orders
-          image: jpbro/orders:latest
+          image: jpbro/orders:01
           env:
             - name: NATS_CLIENT_ID
               valueFrom:
